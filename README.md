@@ -1,33 +1,27 @@
 # Password Generator Starter Code
 
+## Description
 
-## User Story
+This is a password generator. The user can create a random password by answering 5 prompts. These prompts to the length of the password, and whether or not the user wants to include lower-case letters, upper-case letters, numbers, and special characters. This is very beneficial if the user wants to create a temporary or permanent password that would be different from any other combination of characters.
 
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-## Acceptance Criteria
+## Installation
 
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
+Link to the repository: <a href="https://github.com/FrancisLao9/PasswordGenerator">Password Page</a>
 
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
+## Usage
 
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
+To use the random password generator, click "Generate Password". Multiple prompts will show up, asking for the length of the password along with other variables such as inclusion of lower-case letters, upper-case letters, numeric characters, and special characters such as -, ., and !.
 
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+## Credits
 
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
+N/A
 
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
+## License
 
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-
+MIT License. See License in repository.
